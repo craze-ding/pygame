@@ -1,7 +1,7 @@
 import jieba
 import wordcloud
 from imageio import imread
-mask = imread("fivestar1.png")
+mask = imread("bitlogo.png")
 f=open("threekingdoms.txt","r",encoding="utf-8")
 t=f.read()
 f.close()
