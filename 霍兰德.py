@@ -16,7 +16,7 @@ data_labels = ('艺术家','实验员','工程师','推销员','社会工作者'
 angles = np.linspace(0, 2*np.pi, 6, endpoint=False)
 data = np.concatenate((data, [data[0]]))
 angles = np.concatenate((angles, [angles[0]]))
-radar_labels=np.concatenate((radar_labels,[radar_labels[0]]))   #对labels进行封闭
+radar_labels=np.concatenate((radar_labels,[radar_labels[0]]))   #对radar_labels进行封闭
 fig = plt.figure(facecolor="white")
 plt.subplot(111, polar=True)
 plt.plot(angles,data,'o-', linewidth=1, alpha=0.2)
